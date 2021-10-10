@@ -7,4 +7,6 @@ on:
   release:
     types: [created]
 
-jo
+jobs:
+  create-release:
+    runs-on: ubuntu-la
