@@ -20,4 +20,5 @@ jobs:
   upload-assets:
     strategy:
       matrix:
-        incl
+        include:
+          - target: x86_64-unkn
