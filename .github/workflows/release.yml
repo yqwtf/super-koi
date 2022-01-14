@@ -18,4 +18,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
   upload-assets:
-  
+    strategy:
+      matrix:
+        incl
