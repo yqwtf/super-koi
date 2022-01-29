@@ -25,4 +25,6 @@ jobs:
             os: ubuntu-latest
           - target: universal-apple-darwin
             os: macos-latest
-    ru
+    runs-on: ${{ matrix.os }}
+    steps:
+ 
