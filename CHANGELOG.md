@@ -1,3 +1,5 @@
 # Changelog
 
-Notable changes to this project will be d
+Notable changes to this project will be documented in this file.
+
+The format
