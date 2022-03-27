@@ -12,4 +12,4 @@ Initial release
 
 ### Added
 - Interface to allow users to interact with ChatGPT through the CLI
-- Automat
+- Automatic command parsing and running options to assist w
