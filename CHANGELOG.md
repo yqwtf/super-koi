@@ -11,4 +11,5 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 Initial release
 
 ### Added
-- Interface to allow users to
+- Interface to allow users to interact with ChatGPT through the CLI
+- Automat
