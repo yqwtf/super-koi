@@ -12,4 +12,6 @@ Initial release
 
 ### Added
 - Interface to allow users to interact with ChatGPT through the CLI
-- Automatic command parsing and running options to assist w
+- Automatic command parsing and running options to assist with using the CLI
+
+[0.1.1] https://githu
