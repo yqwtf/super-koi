@@ -2,3 +2,5 @@
 name = "koios"
 description = "A CLI tool to interact with the ChatGPT API and allow it to run commands on your machine to help you out."
 version = "0.1.1"
+edition = "2021"
+readme 
