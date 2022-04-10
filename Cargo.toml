@@ -4,4 +4,5 @@ description = "A CLI tool to interact with the ChatGPT API and allow it to run c
 version = "0.1.1"
 edition = "2021"
 readme = "README.md"
-repository = "ht
+repository = "https://github.com/shivam-sh/koi/"
+license = 
