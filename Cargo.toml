@@ -5,4 +5,5 @@ version = "0.1.1"
 edition = "2021"
 readme = "README.md"
 repository = "https://github.com/shivam-sh/koi/"
-license = 
+license = "MIT"
+categories = ["command-lin
