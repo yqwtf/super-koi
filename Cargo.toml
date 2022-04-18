@@ -13,4 +13,4 @@ name = "koi"
 path = "src/main.rs"
 
 [dependencies]
-clap 
+clap = { version = "4.1.11", features =
