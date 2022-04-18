@@ -10,4 +10,7 @@ categories = ["command-line-utilities"]
 
 [[bin]]
 name = "koi"
-pat
+path = "src/main.rs"
+
+[dependencies]
+clap 
