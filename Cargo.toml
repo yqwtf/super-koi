@@ -13,4 +13,6 @@ name = "koi"
 path = "src/main.rs"
 
 [dependencies]
-clap = { version = "4.1.11", features =
+clap = { version = "4.1.11", features = ["derive"] }
+confy = "0.5.1"
+console
