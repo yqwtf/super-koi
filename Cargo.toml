@@ -15,4 +15,5 @@ path = "src/main.rs"
 [dependencies]
 clap = { version = "4.1.11", features = ["derive"] }
 confy = "0.5.1"
-console
+console = "0.15.5"
+eventsource-cl
