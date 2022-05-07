@@ -18,4 +18,4 @@ confy = "0.5.1"
 console = "0.15.5"
 eventsource-client = "0.11"
 futures = "0.3"
-inq
+inquire = { version = "0.6", features = ["cons
