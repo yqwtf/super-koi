@@ -11,3 +11,35 @@ pub struct Message {
 }
 
 #[derive(Serialize, Deserialize)]
+pub struct Body {
+    pub model: String,
+    pub messages: Vec<Message>,
+    pub max_tokens: Option<u32>,
+    pub temperature: Option<f32>,
+    pub top_p: Option<f32>,
+    pub stream: Option<bool>,
+}
+
+pub async fn stream_response(client: impl es::Client) -> Message {
+    let mut response = String::new();
+
+    let mut stream = client.stream().map_ok(|event| match event {
+        es::SSE::Event(ev) => {
+            if ev.event_type == "message" {
+                let body: serde_json::Value = serde_json::from_str(&ev.data).unwrap_or_default();
+                let message = body["choices"][0]["delta"]["content"].as_str();
+
+                if let Some(message) = message {
+                    print!("{message}");
+                    std::mem::drop(io::stdout().flush());
+                    response.push_str(message);
+                }
+            }
+        }
+        es::SSE::Comment(_) => {}
+    });
+
+    let mut end = false;
+    while !end {
+        if let Ok(Some(Ok(_))) =
+            tokio::time::timeout(std::time::Duration::from_secs(5), stream.next()).await
