@@ -43,3 +43,16 @@ pub async fn stream_response(client: impl es::Client) -> Message {
     while !end {
         if let Ok(Some(Ok(_))) =
             tokio::time::timeout(std::time::Duration::from_secs(5), stream.next()).await
+        {
+        } else {
+            end = true;
+        }
+    }
+
+    print!("\n\n");
+
+    Message {
+        role: "assistant".to_string(),
+        content: response,
+    }
+}
