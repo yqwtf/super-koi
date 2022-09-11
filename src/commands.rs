@@ -7,4 +7,5 @@ pub fn parse(input: &str) -> Vec<String> {
     if input.contains("```") {
         let command_blocks = input
             .split("```")
-            
+            .enumerate()
+            .filter(
