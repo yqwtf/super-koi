@@ -8,4 +8,5 @@ pub fn parse(input: &str) -> Vec<String> {
         let command_blocks = input
             .split("```")
             .enumerate()
-            .filter(
+            .filter(|(i, _)| i % 2 == 1)
+            .ma
