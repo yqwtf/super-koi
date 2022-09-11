@@ -9,4 +9,5 @@ pub fn parse(input: &str) -> Vec<String> {
             .split("```")
             .enumerate()
             .filter(|(i, _)| i % 2 == 1)
-            .ma
+            .map(|(_, block)| block)
+            .collect::<V
