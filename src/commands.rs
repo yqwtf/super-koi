@@ -10,4 +10,6 @@ pub fn parse(input: &str) -> Vec<String> {
             .enumerate()
             .filter(|(i, _)| i % 2 == 1)
             .map(|(_, block)| block)
-            .collect::<V
+            .collect::<Vec<&str>>();
+
+        for block 
