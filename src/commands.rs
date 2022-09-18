@@ -12,4 +12,5 @@ pub fn parse(input: &str) -> Vec<String> {
             .map(|(_, block)| block)
             .collect::<Vec<&str>>();
 
-        for block 
+        for block in command_blocks {
+            let block 
