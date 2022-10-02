@@ -15,3 +15,5 @@ pub fn parse(input: &str) -> Vec<String> {
         for block in command_blocks {
             let block = block
                 .lines()
+                .skip(1)
+      
