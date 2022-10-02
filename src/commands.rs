@@ -16,4 +16,4 @@ pub fn parse(input: &str) -> Vec<String> {
             let block = block
                 .lines()
                 .skip(1)
-      
+                .take_while(|line| line !
