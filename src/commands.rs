@@ -17,4 +17,5 @@ pub fn parse(input: &str) -> Vec<String> {
                 .lines()
                 .skip(1)
                 .take_while(|line| line != &"")
-                .collect::<Vec<&s
+                .collect::<Vec<&str>>()
+                .join("
