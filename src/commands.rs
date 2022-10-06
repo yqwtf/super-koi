@@ -18,4 +18,6 @@ pub fn parse(input: &str) -> Vec<String> {
                 .skip(1)
                 .take_while(|line| line != &"")
                 .collect::<Vec<&str>>()
-                .join("
+                .join("\n");
+
+            let output = run_check
