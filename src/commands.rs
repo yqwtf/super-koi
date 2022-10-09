@@ -22,4 +22,5 @@ pub fn parse(input: &str) -> Vec<String> {
 
             let output = run_checked(block.to_string());
 
-            if output == "
+            if output == "Stop Command Run" {
+             
