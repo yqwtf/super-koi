@@ -26,4 +26,4 @@ pub fn parse(input: &str) -> Vec<String> {
                 break;
             }
 
-      
+            let output = if output
