@@ -20,4 +20,6 @@ pub fn parse(input: &str) -> Vec<String> {
                 .collect::<Vec<&str>>()
                 .join("\n");
 
-            let output = run_check
+            let output = run_checked(block.to_string());
+
+            if output == "
