@@ -27,4 +27,6 @@ pub fn parse(input: &str) -> Vec<String> {
             }
 
             let output = if output.ends_with('\n') {
-                outp
+                output
+            } else {
+            
