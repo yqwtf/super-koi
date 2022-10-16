@@ -32,4 +32,6 @@ pub fn parse(input: &str) -> Vec<String> {
                 output + "\n"
             };
 
+            println!("{output}");
+
      
