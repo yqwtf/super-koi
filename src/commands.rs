@@ -34,4 +34,5 @@ pub fn parse(input: &str) -> Vec<String> {
 
             println!("{output}");
 
-     
+            responses.push(output);
+ 
