@@ -41,3 +41,4 @@ pub fn parse(input: &str) -> Vec<String> {
     responses
 }
 
+pub fn run_checked(command: 
