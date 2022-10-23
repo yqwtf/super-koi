@@ -41,4 +41,5 @@ pub fn parse(input: &str) -> Vec<String> {
     responses
 }
 
-pub fn run_checked(command: 
+pub fn run_checked(command: String) -> String {
+    let error_
