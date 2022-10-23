@@ -42,4 +42,4 @@ pub fn parse(input: &str) -> Vec<String> {
 }
 
 pub fn run_checked(command: String) -> String {
-    let error_
+    let error_style = Style::new().dim().red().bold();
