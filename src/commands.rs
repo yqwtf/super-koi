@@ -43,3 +43,4 @@ pub fn parse(input: &str) -> Vec<String> {
 
 pub fn run_checked(command: String) -> String {
     let error_style = Style::new().dim().red().bold();
+    let command_not_run = error_style
