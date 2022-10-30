@@ -49,3 +49,5 @@ pub fn run_checked(command: String) -> String {
         "Run Command",
         "Edit Command",
         "Don't Run This Command",
+        "Don't Ask For This Response",
+ 
