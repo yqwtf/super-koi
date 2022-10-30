@@ -47,4 +47,5 @@ pub fn run_checked(command: String) -> String {
 
     let choices = vec![
         "Run Command",
-        "Edit Command
+        "Edit Command",
+        "Don't Run This Command",
