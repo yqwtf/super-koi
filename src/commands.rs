@@ -46,4 +46,5 @@ pub fn run_checked(command: String) -> String {
     let command_not_run = error_style.apply_to("Command Not Run").to_string();
 
     let choices = vec![
-   
+        "Run Command",
+        "Edit Command
