@@ -52,4 +52,5 @@ pub fn run_checked(command: String) -> String {
         "Don't Ask For This Response",
     ];
 
-    let choice = inquire::Sele
+    let choice = inquire::Select::new(
+        &format!("{} {}\n", style("Co
