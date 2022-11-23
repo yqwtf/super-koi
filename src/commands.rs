@@ -50,4 +50,6 @@ pub fn run_checked(command: String) -> String {
         "Edit Command",
         "Don't Run This Command",
         "Don't Ask For This Response",
- 
+    ];
+
+    let choice = inquire::Sele
