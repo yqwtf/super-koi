@@ -56,4 +56,5 @@ pub fn run_checked(command: String) -> String {
         &format!("{} {}\n", style("Command:").cyan().bold(), command),
         choices,
     )
-  
+    .without_help_message()
+    
