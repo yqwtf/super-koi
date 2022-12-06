@@ -53,4 +53,7 @@ pub fn run_checked(command: String) -> String {
     ];
 
     let choice = inquire::Select::new(
-        &format!("{} {}\n", style("Command:").cyan().bold(), 
+        &format!("{} {}\n", style("Command:").cyan().bold(), command),
+        choices,
+    )
+  
