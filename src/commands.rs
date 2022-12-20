@@ -57,4 +57,7 @@ pub fn run_checked(command: String) -> String {
         choices,
     )
     .without_help_message()
-    
+    .prompt();
+
+    match choice {
+   
