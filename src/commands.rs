@@ -60,4 +60,5 @@ pub fn run_checked(command: String) -> String {
     .prompt();
 
     match choice {
-   
+        Ok(choice) => match choice {
+          
