@@ -62,4 +62,5 @@ pub fn run_checked(command: String) -> String {
     match choice {
         Ok(choice) => match choice {
             "Run Command" => {}
-            "Edit Co
+            "Edit Command" => {
+                let new_c
