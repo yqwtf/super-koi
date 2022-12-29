@@ -63,4 +63,4 @@ pub fn run_checked(command: String) -> String {
         Ok(choice) => match choice {
             "Run Command" => {}
             "Edit Command" => {
-                let new_c
+                let new_command = inquire::Text::new(&sty
