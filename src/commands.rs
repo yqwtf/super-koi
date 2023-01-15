@@ -64,4 +64,5 @@ pub fn run_checked(command: String) -> String {
             "Run Command" => {}
             "Edit Command" => {
                 let new_command = inquire::Text::new(&style("Edit:").cyan().bold().to_string())
-                    .with_initial_va
+                    .with_initial_value(&command)
+                    .pro
