@@ -65,4 +65,6 @@ pub fn run_checked(command: String) -> String {
             "Edit Command" => {
                 let new_command = inquire::Text::new(&style("Edit:").cyan().bold().to_string())
                     .with_initial_value(&command)
-                    .pro
+                    .prompt();
+
+                match new_comman
