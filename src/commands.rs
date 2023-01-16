@@ -67,4 +67,5 @@ pub fn run_checked(command: String) -> String {
                     .with_initial_value(&command)
                     .prompt();
 
-                match new_comman
+                match new_command {
+                    Ok(new_comm
