@@ -68,4 +68,5 @@ pub fn run_checked(command: String) -> String {
                     .prompt();
 
                 match new_command {
-                    Ok(new_comm
+                    Ok(new_command) => {
+                        return ru
