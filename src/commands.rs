@@ -70,4 +70,5 @@ pub fn run_checked(command: String) -> String {
                 match new_command {
                     Ok(new_command) => {
                         return run_checked(new_command);
-         
+                    }
+                    Err(err
