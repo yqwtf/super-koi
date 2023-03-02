@@ -77,4 +77,5 @@ pub fn run_checked(command: String) -> String {
                     }
                 }
             }
-            "Don't Run This 
+            "Don't Run This Command" => {
+                return erro
