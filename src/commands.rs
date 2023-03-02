@@ -76,4 +76,5 @@ pub fn run_checked(command: String) -> String {
                         return command_not_run;
                     }
                 }
-         
+            }
+            "Don't Run This 
