@@ -83,4 +83,5 @@ pub fn run_checked(command: String) -> String {
             "Don't Ask For This Response" => {
                 return "Stop Command Run".to_string();
             }
-     
+            _ => {
+                eprintln!("{}
