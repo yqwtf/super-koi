@@ -81,4 +81,6 @@ pub fn run_checked(command: String) -> String {
                 return error_style.apply_to("Command Run Cancelled\n").to_string();
             }
             "Don't Ask For This Response" => {
-                return "Stop Command Run
+                return "Stop Command Run".to_string();
+            }
+     
