@@ -84,4 +84,5 @@ pub fn run_checked(command: String) -> String {
                 return "Stop Command Run".to_string();
             }
             _ => {
-                eprintln!("{}", error_style.apply_to("Invalid Cho
+                eprintln!("{}", error_style.apply_to("Invalid Choice"));
+                return co
