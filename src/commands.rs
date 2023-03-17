@@ -85,4 +85,7 @@ pub fn run_checked(command: String) -> String {
             }
             _ => {
                 eprintln!("{}", error_style.apply_to("Invalid Choice"));
-                return co
+                return command_not_run;
+            }
+        },
+        E
