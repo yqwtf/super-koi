@@ -90,4 +90,7 @@ pub fn run_checked(command: String) -> String {
         },
         Err(err) => {
             eprintln!("{}", error_style.apply_to(format!("Inquire Error: {err}")));
-          
+            return command_not_run;
+        }
+    }
+
