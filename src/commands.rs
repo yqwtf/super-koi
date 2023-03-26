@@ -88,4 +88,5 @@ pub fn run_checked(command: String) -> String {
                 return command_not_run;
             }
         },
-        E
+        Err(err) => {
+            eprintln!("{
