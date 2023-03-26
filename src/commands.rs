@@ -89,4 +89,5 @@ pub fn run_checked(command: String) -> String {
             }
         },
         Err(err) => {
-            eprintln!("{}", error_style.apply_to(format!
+            eprintln!("{}", error_style.apply_to(format!("Inquire Error: {err}")));
+          
