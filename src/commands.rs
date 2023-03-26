@@ -89,4 +89,4 @@ pub fn run_checked(command: String) -> String {
             }
         },
         Err(err) => {
-            eprintln!("{
+            eprintln!("{}", error_style.apply_to(format!
