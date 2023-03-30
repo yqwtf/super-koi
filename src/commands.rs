@@ -94,4 +94,5 @@ pub fn run_checked(command: String) -> String {
         }
     }
 
-    let output = std::process::C
+    let output = std::process::Command::new("sh")
+        .arg("-c
