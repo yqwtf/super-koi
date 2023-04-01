@@ -100,3 +100,4 @@ pub fn run_checked(command: String) -> String {
         .output();
 
     match output {
+        Ok(output) => String::fr
