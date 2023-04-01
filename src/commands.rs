@@ -100,4 +100,4 @@ pub fn run_checked(command: String) -> String {
         .output();
 
     match output {
-        Ok(output) => String::fr
+        Ok(output) => String::from_utf8_lossy(&output.stdou
