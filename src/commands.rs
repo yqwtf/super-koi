@@ -101,4 +101,5 @@ pub fn run_checked(command: String) -> String {
 
     match output {
         Ok(output) => String::from_utf8_lossy(&output.stdout).to_string(),
-        Err(err) => error_s
+        Err(err) => error_style
+            .apply_to(format!("
