@@ -103,3 +103,6 @@ pub fn run_checked(command: String) -> String {
         Ok(output) => String::from_utf8_lossy(&output.stdout).to_string(),
         Err(err) => error_style
             .apply_to(format!("Command Run Error: {err}"))
+            .to_string(),
+    }
+}
