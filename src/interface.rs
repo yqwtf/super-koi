@@ -3,4 +3,5 @@ use inquire::{
     ui::{Attributes, Color, RenderConfig, StyleSheet, Styled},
 };
 
-pu
+pub fn init() {
+    inquire::set_global_r
