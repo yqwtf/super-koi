@@ -10,4 +10,4 @@ pub fn init() {
 fn inquire_config() -> RenderConfig {
     RenderConfig {
         prompt_prefix: Styled::new(" ❯").with_fg(Color::LightMagenta),
-        answered_prompt_prefi
+        answered_prompt_prefix: Styled::new(" ❯").with_fg(Color::LightCyan)
