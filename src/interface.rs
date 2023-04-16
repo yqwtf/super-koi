@@ -9,4 +9,5 @@ pub fn init() {
 
 fn inquire_config() -> RenderConfig {
     RenderConfig {
-        prompt_prefix: Styled::new(" ❯").with_fg(Color::LightMa
+        prompt_prefix: Styled::new(" ❯").with_fg(Color::LightMagenta),
+        answered_prompt_prefi
