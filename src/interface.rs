@@ -8,4 +8,5 @@ pub fn init() {
 }
 
 fn inquire_config() -> RenderConfig {
-    RenderConf
+    RenderConfig {
+        prompt_prefix: Styled:
