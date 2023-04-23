@@ -11,4 +11,5 @@ fn inquire_config() -> RenderConfig {
     RenderConfig {
         prompt_prefix: Styled::new(" ❯").with_fg(Color::LightMagenta),
         answered_prompt_prefix: Styled::new(" ❯").with_fg(Color::LightCyan),
-        highlighted_option_prefix: Styl
+        highlighted_option_prefix: Styled::new("▶").with_fg(Color::LightYellow),
+ 
