@@ -13,4 +13,6 @@ fn inquire_config() -> RenderConfig {
         answered_prompt_prefix: Styled::new(" ❯").with_fg(Color::LightCyan),
         highlighted_option_prefix: Styled::new("▶").with_fg(Color::LightYellow),
         scroll_up_prefix: Styled::new("▲"),
-        scroll_down_prefix: S
+        scroll_down_prefix: Styled::new("▼"),
+
+        answer: 
