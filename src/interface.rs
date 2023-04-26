@@ -15,4 +15,5 @@ fn inquire_config() -> RenderConfig {
         scroll_up_prefix: Styled::new("▲"),
         scroll_down_prefix: Styled::new("▼"),
 
-        answer: 
+        answer: StyleSheet::new()
+            .with_attr(Attrib
