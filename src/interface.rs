@@ -16,4 +16,5 @@ fn inquire_config() -> RenderConfig {
         scroll_down_prefix: Styled::new("▼"),
 
         answer: StyleSheet::new()
-            .with_attr(Attrib
+            .with_attr(Attributes::ITALIC)
+            .
