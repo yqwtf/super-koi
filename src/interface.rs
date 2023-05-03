@@ -17,4 +17,6 @@ fn inquire_config() -> RenderConfig {
 
         answer: StyleSheet::new()
             .with_attr(Attributes::ITALIC)
-            .
+            .with_fg(Color::LightCyan),
+
+      
