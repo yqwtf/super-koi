@@ -19,4 +19,6 @@ fn inquire_config() -> RenderConfig {
             .with_attr(Attributes::ITALIC)
             .with_fg(Color::LightCyan),
 
-      
+        ..Default::default()
+    }
+}
