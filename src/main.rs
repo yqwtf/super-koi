@@ -9,4 +9,6 @@ Use this to improve replies, access/modify local files and USE TOOLS LIKE CURL A
 NEVER SAY YOU CAN'T ANSWER try your best
 you only have access to the shell DON'T USE OTHER LANGUAGES
 
-User: What's 
+User: What's the weather here?
+
+Koi: You can use 
