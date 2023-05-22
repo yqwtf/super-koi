@@ -11,4 +11,4 @@ you only have access to the shell DON'T USE OTHER LANGUAGES
 
 User: What's the weather here?
 
-Koi: You can use 
+Koi: You can use curl to get the weather for your loc
