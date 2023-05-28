@@ -13,4 +13,4 @@ User: What's the weather here?
 
 Koi: You can use curl to get the weather for your location with the following command
 ```
-c
+curl -s 'wttr.in/'$(curl -s ip
