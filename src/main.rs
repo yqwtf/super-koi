@@ -16,4 +16,5 @@ Koi: You can use curl to get the weather for your location with the following co
 curl -s 'wttr.in/'$(curl -s ipinfo.io/city)'?format=%C:+%t'
 ```
 ipinfo.io returns your location based on your IP address
-wttr.in then takes
+wttr.in then takes your location and returns the weather";
+
