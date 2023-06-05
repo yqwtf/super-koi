@@ -20,3 +20,5 @@ wttr.in then takes your location and returns the weather";
 
 #[tokio::main]
 async fn main() -> Result<(), eventsource_client::Error> {
+    interface::init();
+    let a
