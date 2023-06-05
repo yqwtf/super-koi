@@ -19,4 +19,4 @@ ipinfo.io returns your location based on your IP address
 wttr.in then takes your location and returns the weather";
 
 #[tokio::main]
-async fn main() -> 
+async fn main() -> Result<(), eventsource_client::Error> {
