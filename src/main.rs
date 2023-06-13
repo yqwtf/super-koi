@@ -24,4 +24,5 @@ async fn main() -> Result<(), eventsource_client::Error> {
     let api_key = config::parse();
 
     let mut messages: Vec<chat::Message> = [
-        chat::Me
+        chat::Message {
+            role: "system".to_stri
