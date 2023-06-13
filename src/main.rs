@@ -23,4 +23,5 @@ async fn main() -> Result<(), eventsource_client::Error> {
     interface::init();
     let api_key = config::parse();
 
-    let mut messag
+    let mut messages: Vec<chat::Message> = [
+        chat::Me
