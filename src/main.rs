@@ -25,4 +25,5 @@ async fn main() -> Result<(), eventsource_client::Error> {
 
     let mut messages: Vec<chat::Message> = [
         chat::Message {
-            role: "system".to_stri
+            role: "system".to_string(),
+            content: format!("Cu
