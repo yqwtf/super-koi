@@ -29,4 +29,5 @@ async fn main() -> Result<(), eventsource_client::Error> {
             content: format!("Current OS: {}\n", std::env::consts::OS) + SYSTEM_PROMPT,
         },
         chat::Message {
-            role: "user".to_
+            role: "user".to_string(),
+            content: "find ans
