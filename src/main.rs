@@ -31,4 +31,7 @@ async fn main() -> Result<(), eventsource_client::Error> {
         chat::Message {
             role: "user".to_string(),
             content: "find answers with the shell, always put runnable code in code blocks"
-                .to_
+                .to_string(),
+        },
+    ]
+    .to_vec
