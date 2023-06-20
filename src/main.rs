@@ -34,4 +34,7 @@ async fn main() -> Result<(), eventsource_client::Error> {
                 .to_string(),
         },
     ]
-    .to_vec
+    .to_vec();
+
+    loop {
+        let input = inq
