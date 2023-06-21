@@ -40,4 +40,5 @@ async fn main() -> Result<(), eventsource_client::Error> {
         let input = inquire::Text::new("").prompt();
 
         match input {
-      
+            Ok(input) => {
+             
