@@ -38,3 +38,6 @@ async fn main() -> Result<(), eventsource_client::Error> {
 
     loop {
         let input = inquire::Text::new("").prompt();
+
+        match input {
+      
