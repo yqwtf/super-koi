@@ -37,4 +37,4 @@ async fn main() -> Result<(), eventsource_client::Error> {
     .to_vec();
 
     loop {
-        let input = inq
+        let input = inquire::Text::new("").prompt();
