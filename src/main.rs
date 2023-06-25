@@ -41,4 +41,5 @@ async fn main() -> Result<(), eventsource_client::Error> {
 
         match input {
             Ok(input) => {
-             
+                messages.push(chat::Message {
+   
