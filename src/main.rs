@@ -42,4 +42,5 @@ async fn main() -> Result<(), eventsource_client::Error> {
         match input {
             Ok(input) => {
                 messages.push(chat::Message {
-                    role: "user".to_string(
+                    role: "user".to_string(),
+                    content: inpu
