@@ -43,4 +43,7 @@ async fn main() -> Result<(), eventsource_client::Error> {
             Ok(input) => {
                 messages.push(chat::Message {
                     role: "user".to_string(),
-                    content: inpu
+                    content: input.clone(),
+                });
+
+        
