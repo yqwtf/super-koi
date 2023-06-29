@@ -47,4 +47,5 @@ async fn main() -> Result<(), eventsource_client::Error> {
                 });
 
                 if input == "exit" {
-         
+                    break;
+                
