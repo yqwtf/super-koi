@@ -46,4 +46,5 @@ async fn main() -> Result<(), eventsource_client::Error> {
                     content: input.clone(),
                 });
 
-        
+                if input == "exit" {
+         
