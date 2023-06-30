@@ -50,4 +50,5 @@ async fn main() -> Result<(), eventsource_client::Error> {
                     break;
                 }
             }
-            Err(err) 
+            Err(err) => {
+                if err.to_string() ==
