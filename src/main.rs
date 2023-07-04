@@ -54,3 +54,5 @@ async fn main() -> Result<(), eventsource_client::Error> {
                 if err.to_string() == "Operation was interrupted by the user" {
                     break;
                 }
+                eprintln!(
+              
