@@ -51,4 +51,4 @@ async fn main() -> Result<(), eventsource_client::Error> {
                 }
             }
             Err(err) => {
-                if err.to_string() ==
+                if err.to_string() == "Operation was interrupted by the user" {
