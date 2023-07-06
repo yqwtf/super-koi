@@ -55,4 +55,5 @@ async fn main() -> Result<(), eventsource_client::Error> {
                     break;
                 }
                 eprintln!(
-              
+                    "{}",
+                    console::style(form
