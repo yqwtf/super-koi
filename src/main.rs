@@ -58,4 +58,6 @@ async fn main() -> Result<(), eventsource_client::Error> {
                     "{}",
                     console::style(format!("Error: {err}"))
                         .red()
-                      
+                        .bold()
+                );
+          
