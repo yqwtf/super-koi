@@ -60,4 +60,8 @@ async fn main() -> Result<(), eventsource_client::Error> {
                         .red()
                         .bold()
                 );
-          
+                continue;
+            }
+        }
+
+        let
