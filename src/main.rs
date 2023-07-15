@@ -65,4 +65,5 @@ async fn main() -> Result<(), eventsource_client::Error> {
         }
 
         let body = chat::Body {
-            model: "gpt-3.5-turbo".to_st
+            model: "gpt-3.5-turbo".to_string(),
+            messages: messa
