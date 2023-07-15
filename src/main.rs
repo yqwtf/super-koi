@@ -64,4 +64,4 @@ async fn main() -> Result<(), eventsource_client::Error> {
             }
         }
 
-        let
+        let body = chat::Body {
