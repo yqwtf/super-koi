@@ -69,4 +69,5 @@ async fn main() -> Result<(), eventsource_client::Error> {
             messages: messages.clone(),
             max_tokens: None,
             temperature: None,
-          
+            top_p: None,
+            stream: Some(
