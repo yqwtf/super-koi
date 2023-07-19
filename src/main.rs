@@ -70,4 +70,7 @@ async fn main() -> Result<(), eventsource_client::Error> {
             max_tokens: None,
             temperature: None,
             top_p: None,
-            stream: Some(
+            stream: Some(true),
+        };
+
+        let clie
