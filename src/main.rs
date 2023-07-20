@@ -73,4 +73,4 @@ async fn main() -> Result<(), eventsource_client::Error> {
             stream: Some(true),
         };
 
-        let clie
+        let client = eventsource_client::ClientBuilder::for_url(
