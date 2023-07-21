@@ -76,4 +76,5 @@ async fn main() -> Result<(), eventsource_client::Error> {
         let client = eventsource_client::ClientBuilder::for_url(
             "https://api.openai.com/v1/chat/completions",
         )?
-        .me
+        .method("POST".to_string())
+        .header(
