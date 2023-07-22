@@ -77,4 +77,4 @@ async fn main() -> Result<(), eventsource_client::Error> {
             "https://api.openai.com/v1/chat/completions",
         )?
         .method("POST".to_string())
-        .header(
+        .header("Content-Type", "application/json")?
