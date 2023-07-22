@@ -78,3 +78,4 @@ async fn main() -> Result<(), eventsource_client::Error> {
         )?
         .method("POST".to_string())
         .header("Content-Type", "application/json")?
+        .header("Authorization", &("Bearer ".to
