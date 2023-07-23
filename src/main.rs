@@ -79,4 +79,5 @@ async fn main() -> Result<(), eventsource_client::Error> {
         .method("POST".to_string())
         .header("Content-Type", "application/json")?
         .header("Authorization", &("Bearer ".to_string() + &api_key))?
-        .body(serde_json::to_string(&body).expect("body sho
+        .body(serde_json::to_string(&body).expect("body should always be serializable"))
+        .bu
