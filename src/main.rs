@@ -80,4 +80,6 @@ async fn main() -> Result<(), eventsource_client::Error> {
         .header("Content-Type", "application/json")?
         .header("Authorization", &("Bearer ".to_string() + &api_key))?
         .body(serde_json::to_string(&body).expect("body should always be serializable"))
-        .bu
+        .build();
+
+        let response = chat::stream_respon
