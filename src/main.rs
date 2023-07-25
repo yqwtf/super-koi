@@ -82,4 +82,5 @@ async fn main() -> Result<(), eventsource_client::Error> {
         .body(serde_json::to_string(&body).expect("body should always be serializable"))
         .build();
 
-        let response = chat::stream_respon
+        let response = chat::stream_response(client).await;
+        let c
