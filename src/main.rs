@@ -84,3 +84,6 @@ async fn main() -> Result<(), eventsource_client::Error> {
 
         let response = chat::stream_response(client).await;
         let content = response.content.clone();
+        messages.push(response);
+
+        let outp
