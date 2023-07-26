@@ -86,4 +86,6 @@ async fn main() -> Result<(), eventsource_client::Error> {
         let content = response.content.clone();
         messages.push(response);
 
-        let outp
+        let outputs = commands::parse(&content);
+
+ 
