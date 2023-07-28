@@ -89,4 +89,5 @@ async fn main() -> Result<(), eventsource_client::Error> {
         let outputs = commands::parse(&content);
 
         for output in outputs {
-            me
+            messages.push(chat::Message {
+         
