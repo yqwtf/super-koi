@@ -1,1 +1,1 @@
-# Super Koi\n\n## What is Super Koi?\n\nSuper Koi is a handy tool a
+# Super Koi\n\n## What is Super Koi?\n\nSuper Koi is a handy tool allowing you to interact with ChatGPT via t
