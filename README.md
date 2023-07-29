@@ -1,1 +1,1 @@
-# Super Koi\n\n## What is Super Koi?\n\nSuper Koi is a handy tool allowing you to interact with ChatGPT via the command line. It even facilitates various complex tasks by allowing ChatGPT to ex
+# Super Koi\n\n## What is Super Koi?\n\nSuper Koi is a handy tool allowing you to interact with ChatGPT via the command line. It even facilitates various complex tasks by allowing ChatGPT to execute commands on your workstation 
