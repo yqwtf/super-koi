@@ -91,4 +91,5 @@ async fn main() -> Result<(), eventsource_client::Error> {
         for output in outputs {
             messages.push(chat::Message {
                 role: "system".to_string(),
-             
+                content: output.clone(),
+      
